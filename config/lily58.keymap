@@ -5,11 +5,10 @@
 
 // ==== MOUSE-KEY <section begins> ====
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1800
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 15
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1800
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 15
 
-#include <dt-bindings/zmk/mouse.h>
-#include <behaviors/mouse_keys.dtsi>
+#include <dt-bindings/zmk/pointing.h>
 
 &mmv {
   acceleration-exponent = <1>;
